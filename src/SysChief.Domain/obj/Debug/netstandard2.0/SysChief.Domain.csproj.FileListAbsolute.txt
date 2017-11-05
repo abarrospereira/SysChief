@@ -1,0 +1,10 @@
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.csproj.CoreCompileInputs.cache
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.AssemblyInfoInputs.cache
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.AssemblyInfo.cs
+/home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.deps.json
+/home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.dll
+/home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.pdb
+/home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.Core.dll
+/home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.Core.pdb
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.dll
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.pdb

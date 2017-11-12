@@ -31,7 +31,7 @@ namespace SysChief.Domain.Validations
         protected void ValidateId()
         {
             RuleFor(c => c.Id)
-                .NotEqual(Guid.Empty);
+                .NotEqual(null);
         }
 
         protected static bool HaveMinimumAge(DateTime birthDate)

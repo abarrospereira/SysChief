@@ -1,0 +1,15 @@
+C:\SysChief\src\SysChief.Application\obj\Debug\netcoreapp2.0\SysChief.Application.csprojResolveAssemblyReference.cache
+C:\SysChief\src\SysChief.Application\obj\Debug\netcoreapp2.0\SysChief.Application.csproj.CoreCompileInputs.cache
+C:\SysChief\src\SysChief.Application\obj\Debug\netcoreapp2.0\SysChief.Application.AssemblyInfoInputs.cache
+C:\SysChief\src\SysChief.Application\obj\Debug\netcoreapp2.0\SysChief.Application.AssemblyInfo.cs
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.dll
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Domain.dll
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Infra.Data.dll
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Domain.pdb
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.pdb
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Application.deps.json
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Application.dll
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Application.pdb
+C:\SysChief\src\SysChief.Application\bin\Debug\netcoreapp2.0\SysChief.Infra.Data.pdb
+C:\SysChief\src\SysChief.Application\obj\Debug\netcoreapp2.0\SysChief.Application.dll
+C:\SysChief\src\SysChief.Application\obj\Debug\netcoreapp2.0\SysChief.Application.pdb

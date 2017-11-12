@@ -1,0 +1,11 @@
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.csprojResolveAssemblyReference.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.csproj.CoreCompileInputs.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.AssemblyInfoInputs.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.AssemblyInfo.cs
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.deps.json
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.pdb

@@ -5,9 +5,8 @@ namespace SysChief.Domain.Models
 {
     public class Customer : Entity
     {
-        public Customer(Guid id, string name, string email, DateTime birthDate)
+        public Customer(string name, string email, DateTime birthDate)
         {
-           id = new Guid();
             Name = name;
             Email = email;
             BirthDate = birthDate;

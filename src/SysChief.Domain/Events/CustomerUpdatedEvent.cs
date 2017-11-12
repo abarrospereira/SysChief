@@ -5,15 +5,13 @@ namespace SysChief.Domain.Events
 {
     public class CustomerUpdatedEvent : Event
     {
-        public CustomerUpdatedEvent(Guid id, string name, string email, DateTime birthDate)
+        public CustomerUpdatedEvent(string name, string email, DateTime birthDate)
         {
-            Id = id;
             Name = name;
             Email = email;
             BirthDate = birthDate;
-            AggregateId = id;
         }
-        public Guid Id { get; set; }
+        public long Id { get; set; }
 
         public string Name { get; private set; }
 

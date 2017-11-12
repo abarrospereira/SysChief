@@ -5,12 +5,12 @@ namespace SysChief.Domain.Events
 {
     public class CustomerRemovedEvent : Event
     {
-        public CustomerRemovedEvent(Guid id)
+        public CustomerRemovedEvent(long id)
         {
             Id = id;
             AggregateId = id;
         }
 
-        public Guid Id { get; set; }
+        public long Id { get; set; }
     }
 }

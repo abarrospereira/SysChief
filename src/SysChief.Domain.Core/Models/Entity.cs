@@ -4,7 +4,7 @@ namespace SysChief.Domain.Core.Models
 {
     public class Entity
     {
-        public Guid Id { get; protected set; }
+        public long Id { get; protected set; }
 
         public override bool Equals(object obj)
         {

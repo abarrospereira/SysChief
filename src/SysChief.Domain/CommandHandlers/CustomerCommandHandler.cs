@@ -34,7 +34,7 @@ namespace SysChief.Domain.CommandHandlers
                 return;
             }
 
-            var customer = new Customer(Guid.NewGuid(), message.Name, message.Email, message.BirthDate);
+            var customer = new Customer(message.Name, message.Email, message.BirthDate);
 
             if (_customerRepository.GetByEmail(customer.Email) != null)
             {
@@ -46,7 +46,7 @@ namespace SysChief.Domain.CommandHandlers
 
             if (Commit())
             {
-                Bus.RaiseEvent(new CustomerRegisteredEvent(customer.Id, customer.Name, customer.Email, customer.BirthDate));
+                Bus.RaiseEvent(new CustomerRegisteredEvent(customer.Name, customer.Email, customer.BirthDate));
             }
         }
 
@@ -58,7 +58,7 @@ namespace SysChief.Domain.CommandHandlers
                 return;
             }
 
-            var customer = new Customer(message.Id, message.Name, message.Email, message.BirthDate);
+            var customer = new Customer(message.Name, message.Email, message.BirthDate);
             var existingCustomer = _customerRepository.GetByEmail(customer.Email);
 
             if (existingCustomer != null && existingCustomer.Id != customer.Id)
@@ -74,7 +74,7 @@ namespace SysChief.Domain.CommandHandlers
 
             if (Commit())
             {
-                Bus.RaiseEvent(new CustomerUpdatedEvent(customer.Id, customer.Name, customer.Email, customer.BirthDate));
+                Bus.RaiseEvent(new CustomerUpdatedEvent( customer.Name, customer.Email, customer.BirthDate));
             }
         }
 

@@ -5,7 +5,7 @@ namespace SysChief.Domain.Commands
 {
     public class UpdateCustomerCommand : CustomerCommand
     {
-        public UpdateCustomerCommand(Guid id, string name, string email, DateTime birthDate)
+        public UpdateCustomerCommand(long id, string name, string email, DateTime birthDate)
         {
             Id = id;
             Name = name;

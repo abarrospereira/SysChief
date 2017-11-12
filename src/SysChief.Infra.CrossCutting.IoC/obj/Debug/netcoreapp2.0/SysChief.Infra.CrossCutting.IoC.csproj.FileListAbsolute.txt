@@ -1,0 +1,17 @@
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.deps.json
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Application.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Domain.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Infra.Data.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Application.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Infra.Data.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\SysChief.Domain.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.IoC.pdb

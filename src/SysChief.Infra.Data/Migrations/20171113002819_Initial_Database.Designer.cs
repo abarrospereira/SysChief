@@ -10,9 +10,10 @@ using System;
 namespace SysChief.Infra.Data.Migrations
 {
     [DbContext(typeof(SysChiefContext))]
-    partial class SysChiefContextModelSnapshot : ModelSnapshot
+    [Migration("20171113002819_Initial_Database")]
+    partial class Initial_Database
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

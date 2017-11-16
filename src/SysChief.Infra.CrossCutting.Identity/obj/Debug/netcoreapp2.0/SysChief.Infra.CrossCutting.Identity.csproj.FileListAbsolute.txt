@@ -1,0 +1,13 @@
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.csproj.CoreCompileInputs.cache
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.AssemblyInfoInputs.cache
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.AssemblyInfo.cs
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/appsettings.json
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.deps.json
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.dll
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.pdb
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/SysChief.Domain.Core.dll
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/SysChief.Domain.dll
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/SysChief.Domain.pdb
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/SysChief.Domain.Core.pdb
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.dll
+/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.pdb

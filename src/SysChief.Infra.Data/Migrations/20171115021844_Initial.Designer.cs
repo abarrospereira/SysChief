@@ -10,8 +10,8 @@ using System;
 namespace SysChief.Infra.Data.Migrations
 {
     [DbContext(typeof(SysChiefContext))]
-    [Migration("20171113002819_Initial_Database")]
-    partial class Initial_Database
+    [Migration("20171115021844_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -1,0 +1,6 @@
+// Adicionar MIgration
+dotnet ef migrations add Initial -c SysChiefContext
+
+
+//Atualizar Estrutura banco
+dotnet ef database update -c SysChiefContext

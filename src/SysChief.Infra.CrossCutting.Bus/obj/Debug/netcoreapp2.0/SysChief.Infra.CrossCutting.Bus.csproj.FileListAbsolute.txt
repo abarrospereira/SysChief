@@ -14,7 +14,6 @@ C:/SysChief/src/SysChief.Infra.CrossCutting.Bus/obj/Debug/netcoreapp2.0/SysChief
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Bus/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.pdb
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Bus/bin/Debug/netcoreapp2.0/SysChief.Domain.Core.dll
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Bus/bin/Debug/netcoreapp2.0/SysChief.Domain.Core.pdb
-/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Bus/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.csprojResolveAssemblyReference.cache
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Bus/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.csproj.CoreCompileInputs.cache
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Bus/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.AssemblyInfoInputs.cache
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Bus/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.AssemblyInfo.cs

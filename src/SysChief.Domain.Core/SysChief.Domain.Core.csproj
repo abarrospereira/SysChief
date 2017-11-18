@@ -10,10 +10,11 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
 
-
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="7.2.1" />
-    <PackageReference Include="MediatR" Version="3.0.1" />
+    <PackageReference Include="mediatr" Version="3.0.1" />
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+    <PackageReference Include="FluentValidation" Version="7.1.1" />
   </ItemGroup>
+
 
 </Project>

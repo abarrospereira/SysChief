@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "607b1ede4cb12960904ca4d6a68a8f447b575b76"
+    "signature": "d686bcdf48d82df7add2ab5e4b5610c4abc1c402"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "SysChief.Application/1.0.0": {
+      "Equinox.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "6.1.1",
           "SysChief.Domain": "1.0.0",
@@ -15,7 +15,7 @@
           "System.ComponentModel.Primitives": "4.3.0"
         },
         "runtime": {
-          "SysChief.Application.dll": {}
+          "Equinox.Application.dll": {}
         }
       },
       "AutoMapper/6.1.1": {
@@ -43,7 +43,7 @@
           "lib/netstandard1.3/AutoMapper.dll": {}
         }
       },
-      "FluentValidation/7.2.1": {
+      "FluentValidation/7.1.1": {
         "runtime": {
           "lib/netstandard1.0/FluentValidation.dll": {}
         }
@@ -625,6 +625,22 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Security.Claims/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Security.Principal": "4.3.0"
+        }
+      },
+      "System.Security.Principal/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Targets": "1.1.0",
@@ -713,9 +729,12 @@
       },
       "SysChief.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidation": "7.2.1",
-          "MediatR": "3.0.1",
-          "SysChief.Domain.Core": "1.0.0"
+          "FluentValidation": "7.1.1",
+          "SysChief.Domain.Core": "1.0.0",
+          "SysChief.Infra.CrossCutting.Bus": "1.0.0",
+          "System.ComponentModel": "4.3.0",
+          "System.ComponentModel.Annotations": "4.4.0",
+          "System.Security.Claims": "4.3.0"
         },
         "runtime": {
           "SysChief.Domain.dll": {}
@@ -723,11 +742,21 @@
       },
       "SysChief.Domain.Core/1.0.0": {
         "dependencies": {
-          "FluentValidation": "7.2.1",
+          "FluentValidation": "7.1.1",
+          "System.ComponentModel": "4.3.0",
           "MediatR": "3.0.1"
         },
         "runtime": {
           "SysChief.Domain.Core.dll": {}
+        }
+      },
+      "SysChief.Infra.CrossCutting.Bus/1.0.0": {
+        "dependencies": {
+          "SysChief.Domain.Core": "1.0.0",
+          "MediatR": "3.0.1"
+        },
+        "runtime": {
+          "SysChief.Infra.CrossCutting.Bus.dll": {}
         }
       },
       "SysChief.Infra.Data/1.0.0": {
@@ -749,7 +778,7 @@
     }
   },
   "libraries": {
-    "SysChief.Application/1.0.0": {
+    "Equinox.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -761,12 +790,12 @@
       "path": "automapper/6.1.1",
       "hashPath": "automapper.6.1.1.nupkg.sha512"
     },
-    "FluentValidation/7.2.1": {
+    "FluentValidation/7.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cQza24pZdc1aPziHNPOazZzg2/5l8S1zbnIpjKMBq8kopRAGj+YXqGyP8Xo4OIqV16SccmzU1hhKV3Q7FyXglg==",
-      "path": "fluentvalidation/7.2.1",
-      "hashPath": "fluentvalidation.7.2.1.nupkg.sha512"
+      "sha512": "sha512-+EOmm3XjvgSuPWqVDqCT807cPwerhJTK2qNi2+CfCvbSn5Jq4+3aRcB6buUJeeOwRLJxFAvYpTZyJTx6w6RAoQ==",
+      "path": "fluentvalidation/7.1.1",
+      "hashPath": "fluentvalidation.7.1.1.nupkg.sha512"
     },
     "MediatR/3.0.1": {
       "type": "package",
@@ -1237,6 +1266,20 @@
       "path": "system.runtime.serialization.primitives/4.3.0",
       "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
     },
+    "System.Security.Claims/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
+      "path": "system.security.claims/4.3.0",
+      "hashPath": "system.security.claims.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Principal/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I1tkfQlAoMM2URscUtpcRo/hX0jinXx6a/KUtEQoz3owaYwl3qwsO8cbzYVVnjxrzxjHo3nJC+62uolgeGIS9A==",
+      "path": "system.security.principal/4.3.0",
+      "hashPath": "system.security.principal.4.3.0.nupkg.sha512"
+    },
     "System.Text.Encoding/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1306,6 +1349,11 @@
       "sha512": ""
     },
     "SysChief.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SysChief.Infra.CrossCutting.Bus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

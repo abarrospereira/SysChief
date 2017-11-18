@@ -1,3 +1,11 @@
+C:/SysChief/src/SysChief.Domain.Core/bin/Debug/netstandard2.0/SysChief.Domain.Core.deps.json
+C:/SysChief/src/SysChief.Domain.Core/bin/Debug/netstandard2.0/SysChief.Domain.Core.dll
+C:/SysChief/src/SysChief.Domain.Core/bin/Debug/netstandard2.0/SysChief.Domain.Core.pdb
+C:/SysChief/src/SysChief.Domain.Core/obj/Debug/netstandard2.0/SysChief.Domain.Core.csproj.CoreCompileInputs.cache
+C:/SysChief/src/SysChief.Domain.Core/obj/Debug/netstandard2.0/SysChief.Domain.Core.AssemblyInfoInputs.cache
+C:/SysChief/src/SysChief.Domain.Core/obj/Debug/netstandard2.0/SysChief.Domain.Core.AssemblyInfo.cs
+C:/SysChief/src/SysChief.Domain.Core/obj/Debug/netstandard2.0/SysChief.Domain.Core.dll
+C:/SysChief/src/SysChief.Domain.Core/obj/Debug/netstandard2.0/SysChief.Domain.Core.pdb
 /home/andre/SysChief/src/SysChief.Domain.Core/bin/Debug/netstandard2.0/SysChief.Domain.Core.deps.json
 /home/andre/SysChief/src/SysChief.Domain.Core/bin/Debug/netstandard2.0/SysChief.Domain.Core.dll
 /home/andre/SysChief/src/SysChief.Domain.Core/bin/Debug/netstandard2.0/SysChief.Domain.Core.pdb
@@ -6,11 +14,3 @@
 /home/andre/SysChief/src/SysChief.Domain.Core/obj/Debug/netstandard2.0/SysChief.Domain.Core.AssemblyInfo.cs
 /home/andre/SysChief/src/SysChief.Domain.Core/obj/Debug/netstandard2.0/SysChief.Domain.Core.dll
 /home/andre/SysChief/src/SysChief.Domain.Core/obj/Debug/netstandard2.0/SysChief.Domain.Core.pdb
-C:\SysChief\src\SysChief.Domain.Core\bin\Debug\netstandard2.0\SysChief.Domain.Core.deps.json
-C:\SysChief\src\SysChief.Domain.Core\bin\Debug\netstandard2.0\SysChief.Domain.Core.dll
-C:\SysChief\src\SysChief.Domain.Core\bin\Debug\netstandard2.0\SysChief.Domain.Core.pdb
-C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.csproj.CoreCompileInputs.cache
-C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.AssemblyInfoInputs.cache
-C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.AssemblyInfo.cs
-C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.dll
-C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.pdb

@@ -8,14 +8,12 @@
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.WebApi.runtimeconfig.dev.json
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.WebApi.dll
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.WebApi.pdb
-/home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Application.dll
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Domain.Core.dll
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Domain.dll
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.dll
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.dll
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.IoC.dll
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Infra.Data.dll
-/home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Application.pdb
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.pdb
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.pdb
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.IoC.pdb
@@ -24,3 +22,5 @@
 /home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/SysChief.Domain.Core.pdb
 /home/andre/SysChief/src/SysChief.WebApi/obj/Debug/netcoreapp2.0/SysChief.WebApi.dll
 /home/andre/SysChief/src/SysChief.WebApi/obj/Debug/netcoreapp2.0/SysChief.WebApi.pdb
+/home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/Equinox.Application.dll
+/home/andre/SysChief/src/SysChief.WebApi/bin/Debug/netcoreapp2.0/Equinox.Application.pdb

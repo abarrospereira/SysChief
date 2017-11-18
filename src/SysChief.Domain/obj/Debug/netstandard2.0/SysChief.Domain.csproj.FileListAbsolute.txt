@@ -1,11 +1,26 @@
+<<<<<<< HEAD
 /home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.csproj.CoreCompileInputs.cache
 /home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.AssemblyInfoInputs.cache
 /home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.AssemblyInfo.cs
+=======
+C:/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.deps.json
+C:/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.dll
+C:/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.pdb
+C:/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.Core.dll
+C:/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.Core.pdb
+C:/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.csprojResolveAssemblyReference.cache
+C:/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.csproj.CoreCompileInputs.cache
+C:/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.AssemblyInfoInputs.cache
+C:/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.AssemblyInfo.cs
+C:/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.dll
+C:/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.pdb
+>>>>>>> 0af1c442374394077c2439c959797e9e7214a992
 /home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.deps.json
 /home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.dll
 /home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.pdb
 /home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.Core.dll
 /home/andre/SysChief/src/SysChief.Domain/bin/Debug/netstandard2.0/SysChief.Domain.Core.pdb
+<<<<<<< HEAD
 /home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.dll
 /home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.pdb
 /home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.csprojResolveAssemblyReference.cache
@@ -20,3 +35,10 @@ C:\SysChief\src\SysChief.Domain\obj\Debug\netstandard2.0\SysChief.Domain.Assembl
 C:\SysChief\src\SysChief.Domain\obj\Debug\netstandard2.0\SysChief.Domain.AssemblyInfo.cs
 C:\SysChief\src\SysChief.Domain\obj\Debug\netstandard2.0\SysChief.Domain.dll
 C:\SysChief\src\SysChief.Domain\obj\Debug\netstandard2.0\SysChief.Domain.pdb
+=======
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.csproj.CoreCompileInputs.cache
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.AssemblyInfoInputs.cache
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.AssemblyInfo.cs
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.dll
+/home/andre/SysChief/src/SysChief.Domain/obj/Debug/netstandard2.0/SysChief.Domain.pdb
+>>>>>>> 0af1c442374394077c2439c959797e9e7214a992

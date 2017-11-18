@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "2f19768a071c6704d6482fde562ab23e03717df5"
+    "signature": "8842357d6f2ad7a4fad8454c5b599cde941a7061"
   },
   "compilationOptions": {},
   "targets": {
@@ -27,7 +27,7 @@
           "SysChief.Infra.CrossCutting.Identity.dll": {}
         }
       },
-      "FluentValidation/7.2.1": {
+      "FluentValidation/7.1.1": {
         "runtime": {
           "lib/netstandard1.0/FluentValidation.dll": {}
         }
@@ -1133,9 +1133,25 @@
           }
         }
       },
+      "System.Security.Claims/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Security.Principal": "4.3.0"
+        }
+      },
       "System.Security.Cryptography.Xml/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {}
+        }
+      },
+      "System.Security.Principal/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
         }
       },
       "System.Security.Principal.Windows/4.4.0": {
@@ -1254,9 +1270,12 @@
       },
       "SysChief.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidation": "7.2.1",
-          "MediatR": "3.0.1",
-          "SysChief.Domain.Core": "1.0.0"
+          "FluentValidation": "7.1.1",
+          "SysChief.Domain.Core": "1.0.0",
+          "SysChief.Infra.CrossCutting.Bus": "1.0.0",
+          "System.ComponentModel": "4.3.0",
+          "System.ComponentModel.Annotations": "4.4.0",
+          "System.Security.Claims": "4.3.0"
         },
         "runtime": {
           "SysChief.Domain.dll": {}
@@ -1264,11 +1283,21 @@
       },
       "SysChief.Domain.Core/1.0.0": {
         "dependencies": {
-          "FluentValidation": "7.2.1",
+          "FluentValidation": "7.1.1",
+          "System.ComponentModel": "4.3.0",
           "MediatR": "3.0.1"
         },
         "runtime": {
           "SysChief.Domain.Core.dll": {}
+        }
+      },
+      "SysChief.Infra.CrossCutting.Bus/1.0.0": {
+        "dependencies": {
+          "SysChief.Domain.Core": "1.0.0",
+          "MediatR": "3.0.1"
+        },
+        "runtime": {
+          "SysChief.Infra.CrossCutting.Bus.dll": {}
         }
       }
     }
@@ -1279,12 +1308,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentValidation/7.2.1": {
+    "FluentValidation/7.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cQza24pZdc1aPziHNPOazZzg2/5l8S1zbnIpjKMBq8kopRAGj+YXqGyP8Xo4OIqV16SccmzU1hhKV3Q7FyXglg==",
-      "path": "fluentvalidation/7.2.1",
-      "hashPath": "fluentvalidation.7.2.1.nupkg.sha512"
+      "sha512": "sha512-+EOmm3XjvgSuPWqVDqCT807cPwerhJTK2qNi2+CfCvbSn5Jq4+3aRcB6buUJeeOwRLJxFAvYpTZyJTx6w6RAoQ==",
+      "path": "fluentvalidation/7.1.1",
+      "hashPath": "fluentvalidation.7.1.1.nupkg.sha512"
     },
     "MediatR/3.0.1": {
       "type": "package",
@@ -2126,12 +2155,26 @@
       "path": "system.security.accesscontrol/4.4.0",
       "hashPath": "system.security.accesscontrol.4.4.0.nupkg.sha512"
     },
+    "System.Security.Claims/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
+      "path": "system.security.claims/4.3.0",
+      "hashPath": "system.security.claims.4.3.0.nupkg.sha512"
+    },
     "System.Security.Cryptography.Xml/4.4.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-1Xubvo4i+K+DO6YzVh6vBKmCl5xx/cAoiJEze6VQ+XwVQU25KQC9pPrmniz2EbbJnmoQ5Rm2FFjHsfQAi0Rs+Q==",
       "path": "system.security.cryptography.xml/4.4.0",
       "hashPath": "system.security.cryptography.xml.4.4.0.nupkg.sha512"
+    },
+    "System.Security.Principal/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I1tkfQlAoMM2URscUtpcRo/hX0jinXx6a/KUtEQoz3owaYwl3qwsO8cbzYVVnjxrzxjHo3nJC+62uolgeGIS9A==",
+      "path": "system.security.principal/4.3.0",
+      "hashPath": "system.security.principal.4.3.0.nupkg.sha512"
     },
     "System.Security.Principal.Windows/4.4.0": {
       "type": "package",
@@ -2223,6 +2266,11 @@
       "sha512": ""
     },
     "SysChief.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SysChief.Infra.CrossCutting.Bus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

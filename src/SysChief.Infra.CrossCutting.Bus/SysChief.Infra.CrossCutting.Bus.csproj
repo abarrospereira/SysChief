@@ -2,7 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>SysChief.Infra.CrossCutting.Bus</AssemblyName>
+    <PackageId>SysChief.Infra.CrossCutting.Bus</PackageId>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="mediatr" Version="3.0.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SysChief.Domain.Core\SysChief.Domain.Core.csproj" />

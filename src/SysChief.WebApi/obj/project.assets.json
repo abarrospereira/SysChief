@@ -45,7 +45,7 @@
           "lib/netstandard1.6/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "FluentValidation/7.2.1": {
+      "FluentValidation/7.1.1": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1"
@@ -4948,7 +4948,7 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "SysChief.Application/1.0.0": {
+      "Equinox.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
@@ -4959,19 +4959,22 @@
           "System.ComponentModel.Primitives": "4.3.0"
         },
         "compile": {
-          "bin/placeholder/SysChief.Application.dll": {}
+          "bin/placeholder/Equinox.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SysChief.Application.dll": {}
+          "bin/placeholder/Equinox.Application.dll": {}
         }
       },
       "SysChief.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "FluentValidation": "7.2.1",
-          "MediatR": "3.0.1",
-          "SysChief.Domain.Core": "1.0.0"
+          "FluentValidation": "7.1.1",
+          "SysChief.Domain.Core": "1.0.0",
+          "SysChief.Infra.CrossCutting.Bus": "1.0.0",
+          "System.ComponentModel": "4.3.0",
+          "System.ComponentModel.Annotations": "4.4.0",
+          "System.Security.Claims": "4.3.0"
         },
         "compile": {
           "bin/placeholder/SysChief.Domain.dll": {}
@@ -4984,8 +4987,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FluentValidation": "7.2.1",
-          "MediatR": "3.0.1"
+          "FluentValidation": "7.1.1",
+          "System.ComponentModel": "4.3.0",
+          "mediatr": "3.0.1"
         },
         "compile": {
           "bin/placeholder/SysChief.Domain.Core.dll": {}
@@ -4998,7 +5002,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "SysChief.Domain.Core": "1.0.0"
+          "SysChief.Domain.Core": "1.0.0",
+          "mediatr": "3.0.1"
         },
         "compile": {
           "bin/placeholder/SysChief.Infra.CrossCutting.Bus.dll": {}
@@ -5037,8 +5042,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
+          "Equinox.Application": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
-          "SysChief.Application": "1.0.0",
           "SysChief.Domain": "1.0.0",
           "SysChief.Infra.CrossCutting.Bus": "1.0.0",
           "SysChief.Infra.CrossCutting.Identity": "1.0.0",
@@ -5102,12 +5107,12 @@
         "lib/netstandard1.6/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
-    "FluentValidation/7.2.1": {
-      "sha512": "cQza24pZdc1aPziHNPOazZzg2/5l8S1zbnIpjKMBq8kopRAGj+YXqGyP8Xo4OIqV16SccmzU1hhKV3Q7FyXglg==",
+    "FluentValidation/7.1.1": {
+      "sha512": "+EOmm3XjvgSuPWqVDqCT807cPwerhJTK2qNi2+CfCvbSn5Jq4+3aRcB6buUJeeOwRLJxFAvYpTZyJTx6w6RAoQ==",
       "type": "package",
-      "path": "fluentvalidation/7.2.1",
+      "path": "fluentvalidation/7.1.1",
       "files": [
-        "fluentvalidation.7.2.1.nupkg.sha512",
+        "fluentvalidation.7.1.1.nupkg.sha512",
         "fluentvalidation.nuspec",
         "lib/net45/FluentValidation.dll",
         "lib/net45/FluentValidation.xml",
@@ -13024,7 +13029,7 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "SysChief.Application/1.0.0": {
+    "Equinox.Application/1.0.0": {
       "type": "project",
       "path": "../SysChief.Application/SysChief.Application.csproj",
       "msbuildProject": "../SysChief.Application/SysChief.Application.csproj"
@@ -13063,11 +13068,11 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 2.0.1",
+      "Equinox.Application >= 1.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 2.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Swashbuckle.AspNetCore >= 1.0.0",
-      "SysChief.Application >= 1.0.0",
       "SysChief.Infra.CrossCutting.Bus >= 1.0.0",
       "SysChief.Infra.CrossCutting.Identity >= 1.0.0",
       "SysChief.Infra.CrossCutting.IoC >= 1.0.0"

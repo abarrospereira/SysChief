@@ -5,12 +5,12 @@
 /home/andre/SysChief/src/SysChief.Infra.Data/bin/Debug/netcoreapp2.0/SysChief.Domain.dll
 /home/andre/SysChief/src/SysChief.Infra.Data/bin/Debug/netcoreapp2.0/SysChief.Domain.Core.pdb
 /home/andre/SysChief/src/SysChief.Infra.Data/bin/Debug/netcoreapp2.0/SysChief.Domain.pdb
-/home/andre/SysChief/src/SysChief.Infra.Data/obj/Debug/netcoreapp2.0/SysChief.Infra.Data.csprojResolveAssemblyReference.cache
 /home/andre/SysChief/src/SysChief.Infra.Data/obj/Debug/netcoreapp2.0/SysChief.Infra.Data.csproj.CoreCompileInputs.cache
 /home/andre/SysChief/src/SysChief.Infra.Data/obj/Debug/netcoreapp2.0/SysChief.Infra.Data.AssemblyInfoInputs.cache
 /home/andre/SysChief/src/SysChief.Infra.Data/obj/Debug/netcoreapp2.0/SysChief.Infra.Data.AssemblyInfo.cs
 /home/andre/SysChief/src/SysChief.Infra.Data/obj/Debug/netcoreapp2.0/SysChief.Infra.Data.dll
 /home/andre/SysChief/src/SysChief.Infra.Data/obj/Debug/netcoreapp2.0/SysChief.Infra.Data.pdb
+<<<<<<< HEAD
 C:\SysChief\src\SysChief.Infra.Data\obj\Debug\netcoreapp2.0\SysChief.Infra.Data.csprojResolveAssemblyReference.cache
 C:\SysChief\src\SysChief.Infra.Data\obj\Debug\netcoreapp2.0\SysChief.Infra.Data.csproj.CoreCompileInputs.cache
 C:\SysChief\src\SysChief.Infra.Data\obj\Debug\netcoreapp2.0\SysChief.Infra.Data.AssemblyInfoInputs.cache
@@ -24,3 +24,9 @@ C:\SysChief\src\SysChief.Infra.Data\bin\Debug\netcoreapp2.0\SysChief.Domain.Core
 C:\SysChief\src\SysChief.Infra.Data\bin\Debug\netcoreapp2.0\SysChief.Domain.dll
 C:\SysChief\src\SysChief.Infra.Data\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.pdb
 C:\SysChief\src\SysChief.Infra.Data\bin\Debug\netcoreapp2.0\SysChief.Domain.pdb
+=======
+/home/andre/SysChief/src/SysChief.Infra.Data/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.dll
+/home/andre/SysChief/src/SysChief.Infra.Data/bin/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Bus.pdb
+>>>>>>> 0af1c442374394077c2439c959797e9e7214a992
+C:\SysChief\src\SysChief.Infra.Data\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.dll
+C:\SysChief\src\SysChief.Infra.Data\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Bus.pdb

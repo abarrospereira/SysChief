@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>SysChief.Domain</AssemblyName>
     <PackageId>SysChief.Domain</PackageId>
     <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
@@ -12,13 +12,17 @@
 
 
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="7.2.1" />
-    <PackageReference Include="MediatR" Version="3.0.1" />
+    <PackageReference Include="FluentValidation" Version="7.1.1" />
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+    <PackageReference Include="System.Security.Claims" Version="4.3.0" />
   </ItemGroup>
 
 
+ 
   <ItemGroup>
     <ProjectReference Include="..\SysChief.Domain.Core\SysChief.Domain.Core.csproj" />
+    <ProjectReference Include="..\SysChief.Infra.CrossCutting.Bus\SysChief.Infra.CrossCutting.Bus.csproj" />
   </ItemGroup>
 
 </Project>

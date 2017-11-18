@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "026ba20711320616cc96f9239f8bad8188c0bed5"
+    "signature": "05dae9586b8e70797d86193ce1b2e6c200264d85"
   },
   "compilationOptions": {
     "defines": [
@@ -24,11 +24,11 @@
       "SysChief.WebApi/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.1",
+          "Equinox.Application": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "2.0.0",
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Swashbuckle.AspNetCore": "1.0.0",
-          "SysChief.Application": "1.0.0",
           "SysChief.Infra.CrossCutting.Bus": "1.0.0",
           "SysChief.Infra.CrossCutting.Identity": "1.0.0",
           "SysChief.Infra.CrossCutting.IoC": "1.0.0"
@@ -81,7 +81,7 @@
           "lib/netstandard1.6/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "FluentValidation/7.2.1": {
+      "FluentValidation/7.1.1": {
         "dependencies": {
           "NETStandard.Library": "2.0.0"
         },
@@ -3988,7 +3988,7 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "SysChief.Application/1.0.0": {
+      "Equinox.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "6.1.1",
           "SysChief.Domain": "1.0.0",
@@ -3997,17 +3997,20 @@
           "System.ComponentModel.Primitives": "4.3.0"
         },
         "runtime": {
-          "SysChief.Application.dll": {}
+          "Equinox.Application.dll": {}
         },
         "compile": {
-          "SysChief.Application.dll": {}
+          "Equinox.Application.dll": {}
         }
       },
       "SysChief.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidation": "7.2.1",
-          "MediatR": "3.0.1",
-          "SysChief.Domain.Core": "1.0.0"
+          "FluentValidation": "7.1.1",
+          "SysChief.Domain.Core": "1.0.0",
+          "SysChief.Infra.CrossCutting.Bus": "1.0.0",
+          "System.ComponentModel": "4.3.0",
+          "System.ComponentModel.Annotations": "4.4.0",
+          "System.Security.Claims": "4.3.0"
         },
         "runtime": {
           "SysChief.Domain.dll": {}
@@ -4018,7 +4021,8 @@
       },
       "SysChief.Domain.Core/1.0.0": {
         "dependencies": {
-          "FluentValidation": "7.2.1",
+          "FluentValidation": "7.1.1",
+          "System.ComponentModel": "4.3.0",
           "MediatR": "3.0.1"
         },
         "runtime": {
@@ -4030,7 +4034,8 @@
       },
       "SysChief.Infra.CrossCutting.Bus/1.0.0": {
         "dependencies": {
-          "SysChief.Domain.Core": "1.0.0"
+          "SysChief.Domain.Core": "1.0.0",
+          "MediatR": "3.0.1"
         },
         "runtime": {
           "SysChief.Infra.CrossCutting.Bus.dll": {}
@@ -4065,8 +4070,8 @@
       },
       "SysChief.Infra.CrossCutting.IoC/1.0.0": {
         "dependencies": {
+          "Equinox.Application": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
-          "SysChief.Application": "1.0.0",
           "SysChief.Domain": "1.0.0",
           "SysChief.Infra.CrossCutting.Bus": "1.0.0",
           "SysChief.Infra.CrossCutting.Identity": "1.0.0",
@@ -4296,12 +4301,12 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/2.0.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.2.0.1.nupkg.sha512"
     },
-    "FluentValidation/7.2.1": {
+    "FluentValidation/7.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cQza24pZdc1aPziHNPOazZzg2/5l8S1zbnIpjKMBq8kopRAGj+YXqGyP8Xo4OIqV16SccmzU1hhKV3Q7FyXglg==",
-      "path": "fluentvalidation/7.2.1",
-      "hashPath": "fluentvalidation.7.2.1.nupkg.sha512"
+      "sha512": "sha512-+EOmm3XjvgSuPWqVDqCT807cPwerhJTK2qNi2+CfCvbSn5Jq4+3aRcB6buUJeeOwRLJxFAvYpTZyJTx6w6RAoQ==",
+      "path": "fluentvalidation/7.1.1",
+      "hashPath": "fluentvalidation.7.1.1.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
@@ -6375,7 +6380,7 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
-    "SysChief.Application/1.0.0": {
+    "Equinox.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

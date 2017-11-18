@@ -21,6 +21,8 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using SysChief.Infra.Data.Repository.EventSourcingB;
+using Equinox.Infra.Data.EventSourcing;
 
 namespace SysChief.Infra.CrossCutting.IoC
 {
@@ -59,6 +61,8 @@ namespace SysChief.Infra.CrossCutting.IoC
             services.AddScoped<SysChiefContext>();
 
             // Infra - Data EventSourcing
+            services.AddScoped<IEventStoreRepository, EventStoreSQLRepository>();
+            services.AddScoped<IEventStore, SqlEventStore>();
             services.AddScoped<EventStoreSQLContext>();
 
             // Infra - Identity Services

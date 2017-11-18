@@ -6537,35 +6537,40 @@
     ]
   },
   "packageFolders": {
-    "/home/andre/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/SysChief.Infra.CrossCutting.Identity.csproj",
+      "projectUniqueName": "C:\\SysChief\\src\\SysChief.Infra.CrossCutting.Identity\\SysChief.Infra.CrossCutting.Identity.csproj",
       "projectName": "SysChief.Infra.CrossCutting.Identity",
-      "projectPath": "/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/SysChief.Infra.CrossCutting.Identity.csproj",
-      "packagesPath": "/home/andre/.nuget/packages/",
-      "outputPath": "/home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/obj/",
+      "projectPath": "C:\\SysChief\\src\\SysChief.Infra.CrossCutting.Identity\\SysChief.Infra.CrossCutting.Identity.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\SysChief\\src\\SysChief.Infra.CrossCutting.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/andre/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/home/andre/SysChief/src/SysChief.Domain/SysChief.Domain.csproj": {
-              "projectPath": "/home/andre/SysChief/src/SysChief.Domain/SysChief.Domain.csproj"
+            "C:\\SysChief\\src\\SysChief.Domain\\SysChief.Domain.csproj": {
+              "projectPath": "C:\\SysChief\\src\\SysChief.Domain\\SysChief.Domain.csproj"
             }
           }
         }
@@ -6579,41 +6584,11 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
-          },
-          "Microsoft.AspNetCore.Http.Abstractions": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.AspNetCore.Identity": {
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "2.0.0"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "2.0.0"
           },
@@ -6625,17 +6600,47 @@
             "target": "Package",
             "version": "2.0.0"
           },
-          "Microsoft.AspNetCore.Authorization": {
+          "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "2.0.0"
           },
-          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "2.0.0",
+            "autoReferenced": true
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
             "target": "Package",
             "version": "1.1.1"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.Http.Abstractions": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.Authorization": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.Identity": {
+            "target": "Package",
+            "version": "2.0.0"
           }
         },
         "imports": [

@@ -11,7 +11,7 @@ using System;
 namespace SysChief.Infra.Data.Migrations.EventStoreSQL
 {
     [DbContext(typeof(EventStoreSQLContext))]
-    [Migration("20171115022353_Initial")]
+    [Migration("20171118212707_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

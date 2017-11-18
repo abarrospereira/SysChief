@@ -14,3 +14,4 @@ C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Co
 C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.AssemblyInfo.cs
 C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.dll
 C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.pdb
+C:\SysChief\src\SysChief.Domain.Core\obj\Debug\netstandard2.0\SysChief.Domain.Core.csprojResolveAssemblyReference.cache

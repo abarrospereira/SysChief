@@ -5021,38 +5021,43 @@
     ]
   },
   "packageFolders": {
-    "/home/andre/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/andre/SysChief/src/SysChief.Application/SysChief.Application.csproj",
+      "projectUniqueName": "C:\\SysChief\\src\\SysChief.Application\\SysChief.Application.csproj",
       "projectName": "SysChief.Application",
-      "projectPath": "/home/andre/SysChief/src/SysChief.Application/SysChief.Application.csproj",
-      "packagesPath": "/home/andre/.nuget/packages/",
-      "outputPath": "/home/andre/SysChief/src/SysChief.Application/obj/",
+      "projectPath": "C:\\SysChief\\src\\SysChief.Application\\SysChief.Application.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\SysChief\\src\\SysChief.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/andre/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/home/andre/SysChief/src/SysChief.Domain/SysChief.Domain.csproj": {
-              "projectPath": "/home/andre/SysChief/src/SysChief.Domain/SysChief.Domain.csproj"
+            "C:\\SysChief\\src\\SysChief.Domain\\SysChief.Domain.csproj": {
+              "projectPath": "C:\\SysChief\\src\\SysChief.Domain\\SysChief.Domain.csproj"
             },
-            "/home/andre/SysChief/src/SysChief.Infra.Data/SysChief.Infra.Data.csproj": {
-              "projectPath": "/home/andre/SysChief/src/SysChief.Infra.Data/SysChief.Infra.Data.csproj"
+            "C:\\SysChief\\src\\SysChief.Infra.Data\\SysChief.Infra.Data.csproj": {
+              "projectPath": "C:\\SysChief\\src\\SysChief.Infra.Data\\SysChief.Infra.Data.csproj"
             }
           }
         }
@@ -5066,6 +5071,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "System.ComponentModel.Annotations": {
+            "target": "Package",
+            "version": "4.4.0"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -5075,10 +5084,6 @@
           "AutoMapper": {
             "target": "Package",
             "version": "6.1.1"
-          },
-          "System.ComponentModel.Annotations": {
-            "target": "Package",
-            "version": "4.4.0"
           },
           "System.ComponentModel.Primitives": {
             "target": "Package",

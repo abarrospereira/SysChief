@@ -227,28 +227,33 @@
     ]
   },
   "packageFolders": {
-    "/home/andre/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/andre/SysChief/src/SysChief.Domain.Core/SysChief.Domain.Core.csproj",
+      "projectUniqueName": "C:\\SysChief\\src\\SysChief.Domain.Core\\SysChief.Domain.Core.csproj",
       "projectName": "SysChief.Domain.Core",
-      "projectPath": "/home/andre/SysChief/src/SysChief.Domain.Core/SysChief.Domain.Core.csproj",
-      "packagesPath": "/home/andre/.nuget/packages/",
-      "outputPath": "/home/andre/SysChief/src/SysChief.Domain.Core/obj/",
+      "projectPath": "C:\\SysChief\\src\\SysChief.Domain.Core\\SysChief.Domain.Core.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\SysChief\\src\\SysChief.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/andre/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -265,19 +270,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "NETStandard.Library": {
-            "suppressParent": "All",
+          "MediatR": {
             "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
+            "version": "3.0.1"
           },
           "FluentValidation": {
             "target": "Package",
             "version": "7.2.1"
           },
-          "MediatR": {
+          "NETStandard.Library": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "3.0.1"
+            "version": "2.0.0",
+            "autoReferenced": true
           }
         },
         "imports": [

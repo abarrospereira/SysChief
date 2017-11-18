@@ -11,3 +11,17 @@
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/bin/Debug/netcoreapp2.0/SysChief.Domain.Core.pdb
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.dll
 /home/andre/SysChief/src/SysChief.Infra.CrossCutting.Identity/obj/Debug/netcoreapp2.0/SysChief.Infra.CrossCutting.Identity.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.csprojResolveAssemblyReference.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.csproj.CoreCompileInputs.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.AssemblyInfoInputs.cache
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.AssemblyInfo.cs
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\obj\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\bin\Debug\netcoreapp2.0\appsettings.json
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.deps.json
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\bin\Debug\netcoreapp2.0\SysChief.Infra.CrossCutting.Identity.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\bin\Debug\netcoreapp2.0\SysChief.Domain.dll
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\bin\Debug\netcoreapp2.0\SysChief.Domain.pdb
+C:\SysChief\src\SysChief.Infra.CrossCutting.Identity\bin\Debug\netcoreapp2.0\SysChief.Domain.Core.pdb
